@@ -1,0 +1,76 @@
+.login {
+    width: 30%;
+    margin: 10rem auto;
+    padding: 2rem;
+    background-color: rgba(196, 246, 255, 0.618);
+ }
+  
+
+.image{
+    height: 150px;
+    display: block;
+    margin: auto;
+    background:none;
+}
+
+.control{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+  .control label,
+  .control input {
+    display: block;
+    margin: auto;
+    align-items: left;
+  }
+  
+  .control label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #464646;
+  display: flex;
+  flex-direction: row;
+ margin-left: 10%;
+  }
+  
+  .control input {
+    width: 80%;
+    font: inherit;
+    padding: 0.35rem 0.35rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .control input:focus {
+    outline: none;
+    border-color: #4f005f;
+    background: #f6dbfc;
+  }
+  
+  .control.invalid input {
+    border-color: red;
+    background: #fbdada;
+  }
+  
+  .actions {
+    text-align: center;
+  }
+@media screen and (max-width:600px) {
+ .login{ width: 75%;
+ }    
+}
+@media screen and (min-width: 600px) and  (max-width:700px) {
+ .login{ width: 70%;
+ }    
+}
+@media screen and (min-width: 700px) and  (max-width:1080px) {
+ .login{ width: 50%;
+ }    
+}
+
+
+
+
+
+
